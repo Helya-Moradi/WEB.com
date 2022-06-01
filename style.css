@@ -1,0 +1,19 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts/Vazir.eot);
+    src: url(fonts/Vazir.ttf);
+    src: url(fonts/Vazir.woff);
+    src: url(fonts/Vazir.woff2);
+}
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: vazir !important;
+    line-height: 1.6;
+  background: #fff;
+}
+
+.banner-bg{
+    height: 100vh;
+    background: linear-gradient(to right,#2b5876,#4e4376);
+}
